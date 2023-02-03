@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+}
+
+.App
+{
+background: blueviolet;
+height: 100vh;
+width: 100%;
+}
+
+.form
+{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    padding: 10px;
+    width: 50%;
+    align-items: center;
+    margin: 1rem;
+}
+
+button{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.item
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.place
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(221, 157, 157, 0.432);
+    padding: 40px;
+    align-items: center;
+    border-radius: 50px;
+}
+img{
+    width: 50px;
+    margin-bottom: 1rem;
+    border-radius: 50px;
+}
+
+.place p{
+    text-transform: uppercase;
+    color:white;
+    margin:5px;
+}
+.condition
+{
+    margin-top: 2rem;
+    background-color:rgba(255, 255, 255, 0.171);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 40px;
+    border-radius: 30px;
+}
+
+.condition p {
+    color: white;
+    margin: 2px;
+    text-transform: uppercase;
+}
+
+span{
+    color: rgb(255, 60, 0);
+}
